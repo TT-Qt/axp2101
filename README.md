@@ -1,7 +1,7 @@
 # AXP2101 ESP-IDF Driver
 
 AXP2101 driver for ESP-IDF, written in C.  
-Implements low-level control and configuration for the [X-Powers AXP2101 PMIC](https://www.x-powers.com/product/AXP2101_en.php), including power rails, battery management, interrupt handling, and ADC readings.
+Implements low-level control and configuration for the [X-Powers AXP2101 PMIC], including power rails, battery management, interrupt handling, and ADC readings.
 
 ## Features
 

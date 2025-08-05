@@ -92,11 +92,3 @@ Developed by [Kevin Assen](https://www.protoconcept.nl)
 Firmware | PCB | Prototyping  
 Contact: kevin@protoconcept.nl
 
----
-
-## To-Do / Future Work
-
-- [ ] JEITA temperature control interface
-- [ ] Power-off sequence control
-- [ ] Fuel gauge reset functionality
-- [ ] ISR-based IRQ handling (currently just print support)
