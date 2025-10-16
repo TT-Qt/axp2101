@@ -1,6 +1,10 @@
 #ifndef AXP2101_H
 #define AXP2101_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "driver/gpio.h"
 #include "driver/i2c_master.h"
 
@@ -335,5 +339,9 @@ void axp2101_print_irq_status_1(uint8_t status);
  * @param status Raw status byte read from IRQ Status 2 register
  */
 void axp2101_print_irq_status_2(uint8_t status);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

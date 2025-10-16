@@ -1,6 +1,10 @@
 #ifndef AXP2101_REGISTERS_H
 #define AXP2101_REGISTERS_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "esp_err.h"
 #include "driver/i2c_master.h"
 
@@ -2282,5 +2286,9 @@ esp_err_t axp2101_get_ldo_en_ctrl_1(uint8_t *pData);
  * @return esp_err_t ESP_OK when successful
  */
 esp_err_t axp2101_set_ldo_en_ctrl_1(uint8_t data);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
