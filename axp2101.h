@@ -167,6 +167,18 @@ typedef enum {
     AXP2101_IRQ_BATT_OVERVOLTAGE         = (0x42 << 8) | BIT0
 } axp2101_irq_t;
 
+// Vsys voltage for PWROFF threshold setting
+typedef enum {
+    AXP2101_VSYS_PWROFF_2V60 = 0x00,
+    AXP2101_VSYS_PWROFF_2V70 = 0x01,
+    AXP2101_VSYS_PWROFF_2V80 = 0x02,
+    AXP2101_VSYS_PWROFF_2V90 = 0x03,
+    AXP2101_VSYS_PWROFF_3V00 = 0x04,
+    AXP2101_VSYS_PWROFF_3V10 = 0x05,
+    AXP2101_VSYS_PWROFF_3V20 = 0x06,
+    AXP2101_VSYS_PWROFF_3V30 = 0x07
+} axp2101_vsys_pwroff_t;
+
 /**
  * @brief Checks if the connected AXP2101 chip has a valid chip ID
  * 
